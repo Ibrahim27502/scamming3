@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58" started-at="2023-10-16T10:53:18Z" finished-at="2023-10-16T10:53:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58" started-at="2023-10-16T10:53:18Z" finished-at="2023-10-16T10:53:18Z">
+      <class name="scamming3.Demo3">
+        <test-method status="PASS" signature="whatisyourname()[pri:2, instance:scamming3.Demo3@77caeb3e]" name="whatisyourname" duration-ms="14" started-at="2023-10-16T10:53:18Z" finished-at="2023-10-16T10:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatisyourname -->
+        <test-method status="PASS" signature="welcomemsg()[pri:4, instance:scamming3.Demo3@77caeb3e]" name="welcomemsg" duration-ms="2" started-at="2023-10-16T10:53:18Z" finished-at="2023-10-16T10:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomemsg -->
+        <test-method status="PASS" signature="goodmorning()[pri:0, instance:scamming3.Demo3@77caeb3e]" name="goodmorning" duration-ms="2" started-at="2023-10-16T10:53:18Z" depends-on-methods="scamming3.Demo3.welcomemsg" finished-at="2023-10-16T10:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodmorning -->
+      </class> <!-- scamming3.Demo3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
